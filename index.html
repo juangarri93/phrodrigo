@@ -47,6 +47,8 @@
     
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/slider.css" rel="stylesheet">
+    <link href="assets/css/mobile-slider-style.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -95,27 +97,27 @@
       <section class="home-section home-full-height" id="home">
         <div class="hero-slider">
           <ul class="slides">
-            <li class="bg-dark-30 restaurant-page-header bg-dark" style="background-image:url(&quot;assets/images/Costruccion/a.jpeg&quot;);">
+            <li class="bg-dark-30 phrodrigo-page-header bg-dark" style="background-image:url(&quot;assets/images/Costruccion/a2.webp&quot;);">
               <div class="titan-caption">
                 <div class="caption-content">
-                  <div class="font-alt mb-30 titan-title-size-1">Bienvenidos a</div>
-                  <div class="font-alt mb-40 titan-title-size-4">PH Rodrigo</div><a class="section-scroll btn btn-border-w btn-round" href="#services">Proyectos Actuales</a>
+                  <div class="font-alt-title mb-30 titan-title-size-1">Bienvenidos a</div>
+                  <div class="font-alt-title mb-40 titan-title-size-4">PH Rodrigo</div><a class="section-scroll btn btn-border-w btn-round" href="#services">Proyectos Actuales</a>
                 </div>
               </div>
             </li>
-            <li class="bg-dark-30 restaurant-page-header bg-dark" style="background-image:url(&quot;assets/images/Costruccion/m.jpg&quot;);">
+            <li class="bg-dark-30 phrodrigo-page-header bg-dark" style="background-image:url(&quot;assets/images/Costruccion/m.webp&quot;);">
 			  <div class="titan-caption">
                 <div class="caption-content">
-                  <div class="font-alt mb-30 titan-title-size-1">Construcciones sólidas de</div>
-                  <div class="font-alt mb-40 titan-title-size-3">primera calidad</div><a class="section-scroll btn btn-border-w btn-round" href="#specialities">Proyectos Previos</a>
+                  <div class="font-alt-title mb-30 titan-title-size-1">Construcciones sólidas de</div>
+                  <div class="font-alt-title mb-40 titan-title-size-3">primera calidad</div><a class="section-scroll btn btn-border-w btn-round" href="#specialities">Proyectos Previos</a>
                 </div>
               </div>
             </li>
-            <li class="bg-dark-30 restaurant-page-header bg-dark" style="background-image:url(&quot;assets/images/Costruccion/v.jpg&quot;);">
+            <li class="bg-dark-30 phrodrigo-page-header bg-dark" style="background-image:url(&quot;assets/images/Costruccion/v.webp&quot;);">
               <div class="titan-caption">
                 <div class="caption-content">
-                  <div class="font-alt mb-30 titan-title-size-1">Volvemos tu sueño</div>
-                  <div class="font-alt mb-40 titan-title-size-3">realidad</div><a class="section-scroll btn btn-border-w btn-round" href="#video">Contactenos</a>
+                  <div class="font-alt-title mb-30 titan-title-size-1">Volvemos tu sueño</div>
+                  <div class="font-alt-title mb-40 titan-title-size-3">realidad</div><a class="section-scroll btn btn-border-w btn-round" href="#video">Contactenos</a>
                 </div>
               </div>			  
             </li>
@@ -126,25 +128,23 @@
 	<!-- ============= Secciones ============= -->
 	
       <div class="main">
-        <section class="module" id="services"  style="padding-bottom:2%;">
+        <section class="module services-full-height" id="services"  style="padding-bottom:2%;">
           <div class="container">
             <div class="row">
-              <div class="col-sm-2 col-sm-offset-5">
-                <div class="alt-module-subtitle"><span class="holder-w"></span>
-                  <h5 class="font-serif">Para su comodidad</h5><span class="holder-w"></span>
+              <div class="col-sm-12 col-md-12 col-lg-12">
+						<h5 class="font-serif">Para su comodidad</h5>
                 </div>
               </div>
-            </div>
             <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
-                <h2 class="module-title font-alt">los proyectos incluyen</h2>
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <h2 class="font-alt">los proyectos incluyen</h2>
               </div>
             </div>
             <div class="row multi-columns-row">
 			<div class="col-sm-6 col-md-3 col-lg-3">
                 <div class="features-item">
                   <div class="features-icon"><span class="icon-map"></span></div>
-                  <h3 class="features-title font-alt">Ubicacion Estrategica</h3>Cerca de los principales medios de transporte y avenidas.
+                  <h3 class="features-title font-alt" >Ubicacion Estrategica</h3>Cerca de los principales medios de transporte y avenidas.
                 </div>
               </div>
               <div class="col-sm-6 col-md-3 col-lg-3">
@@ -180,7 +180,97 @@
 		
         <hr class="divider-w">
 		
+        <section class="module" id="specialities"  style="padding-bottom:2%;">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-2 col-sm-offset-5">
+                <div class="alt-module-subtitle"><span class="holder-w"></span>
+                  <h5 class="font-serif">Estos son nuestros</h5><span class="holder-w"></span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="module-title font-alt">Proyectos Anteriores</h2>
+              </div>
+            </div>
+				  
+		</section>
+		
+		<section class="" id="slider">
+          <div>
+            <div>                
+			  <input type="radio" name="slider" id="s1">
+			  <input type="radio" name="slider" id="s2">
+			  <input type="radio" name="slider" id="s3" checked>
+			  <input type="radio" name="slider" id="s4">
+			  <input type="radio" name="slider" id="s5">
+			  <label for="s1" id="slide1"></label>
+			  <label for="s2" id="slide2"></label>
+			  <label for="s3" id="slide3"></label>
+			  <label for="s4" id="slide4"></label>
+			  <label for="s5" id="slide5"></label>
+            </div>	
+          </div>
+		</section>
+		
+		<div id="slider-mobile">
+		   <input type="radio" name="slider-mobile" id="slide1-mobile">
+		   <input type="radio" name="slider-mobile" id="slide2-mobile">
+		   <input type="radio" name="slider-mobile" id="slide3-mobile" checked>
+		   <input type="radio" name="slider-mobile" id="slide4-mobile">
+		   <div id="slides-mobile">
+			  <div id="overflow-mobile">
+				 <div class="inner">
+					<div class="slide">
+					   <div class="slide-content">
+						  <img src="assets/images/Obras/Aviles3168.webp"/>
+					   </div>
+					</div>
+					<div class="slide">
+					   <div class="slide-content">
+						  <img src="assets/images/Obras/Conde1365.webp">
+					   </div>
+					</div>
+					<div class="slide">
+					   <div class="slide-content">
+						  <img src="assets/images/Obras/Freire1052.webp"/>
+					   </div>
+					</div>
+					<div class="slide">
+					   <div class="slide-content">
+						  <img src="assets/images/Obras/Freire2838.webp"/>
+					   </div>
+					</div>
+				 </div>
+			  </div>
+		   </div>
+		   <div id="controls-mobile">
+			  <label for="slide1-mobile"></label>
+			  <label for="slide2-mobile"></label>
+			  <label for="slide3-mobile"></label>
+			  <label for="slide4-mobile"></label>
+		   </div>
+		</div>
+		
         <section class="module" id="specialities"  style="padding-bottom:1%;padding-top:3%;">
+          <div class="container">
+            <div class="row">
+		   <div class="text-center"  style="padding-bottom:5%;">
+                    <a class="btn btn-g btn-circle content-box-title" href="obras.html">Ver mas!</a>
+                  </div>
+				  </div>
+            <div class="row">
+              <div class="col-sm-2 col-sm-offset-5" >
+                <div class="large-text align-center"><a class="section-scroll" href="#video"><i class="fa fa-angle-down"></i></a></div>
+              </div>
+            </div>		
+</div>			
+		</section>
+		
+        <hr class="divider-w">
+		
+        <section class="module" id="specialities2"  style="padding-bottom:1%;padding-top:3%;">
           <div class="container">
             <div class="row">
               <div class="col-sm-2 col-sm-offset-5">
@@ -197,31 +287,31 @@
             <div class="row multi-columns-row">
               <div class="col-sm-2 col-md-2 col-lg-2">
                 <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/freire FACU.jpg" alt="Kabab" style="border:5px solid black"/></div>
+                  <div class="content-box-image"><img src="assets/images/Obras/Aviles3168.webp" style="border:5px solid black"/></div>
                   <h3 class="content-box-title font-serif">Freire 2838</h3>
                 </div>
               </div>
               <div class="col-sm-3 col-md-3 col-lg-3">
                 <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/aviles.jpg" alt="Kabab" style="border:5px solid black"/></div>
+                  <div class="content-box-image"><img src="assets/images/Obras/Conde1365.webp" style="border:5px solid black"/></div>
                   <h3 class="content-box-title font-serif">Aviles 3168</h3>
                 </div>
               </div>
               <div class="col-sm-2 col-md-2 col-lg-2">
                 <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/freire.jpg" alt="Kabab" style="border:5px solid black"/></div>
+                  <div class="content-box-image"><img src="assets/images/Obras/Freire1052.webp" style="border:5px solid black"/></div>
                   <h3 class="content-box-title font-serif">Freire 1052</h3>
                 </div>
               </div>
               <div class="col-sm-3 col-md-3 col-lg-3">
                 <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/conde3.jpg" alt="Kabab" style="border:5px solid black"/></div>
+                  <div class="content-box-image"><img src="assets/images/Obras/Freire2838.webp" style="border:5px solid black"/></div>
                   <h3 class="content-box-title font-serif">Conde 1365</h3>
                 </div>
               </div>
               <div class="col-sm-2 col-md-2 col-lg-2">
                 <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/Olaguer5.jpg" alt="Limes" style="border:5px solid black"/></div>
+                  <div class="content-box-image"><img src="assets/images/Obras/Olaguer3181.webp" style="border:5px solid black"/></div>
                   <h3 class="content-box-title font-serif">Olaguer 3181</h3>
                 </div>
               </div>
@@ -238,7 +328,7 @@
             </div>
 		</section>
 		
-        <section class="module module-video bg-dark-30" data-background="assets/images/Obras/img_video2.jpf"  id="video" media="none" onload="if(media!='all')media='all'">
+        <section class="module module-video bg-dark-30" data-background="assets/images/Obras/img_for_video.webp"  id="video" media="none" onload="if(media!='all')media='all'">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">

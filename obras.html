@@ -10,9 +10,8 @@
 	
     <title>PH Rodrigo - Constructora</title>
 	
-	<meta name="keywords" content="constructora,inmuebles,ph,construcciones,pozo,venta,comprar,inversion,casa"/>
-	<meta name="description" content="Somos una empresa familiar con mas de 20 años de trayectoria, integrada por profesionales de amplia experiencia, dedicada a la dirección y construcción de emprendimientos inmobiliarios."/>
-	
+	<meta name="keywords" content="constructora,inmuebles,ph,construcciones,venta,comprar,inversion,emprendimiento,casa,pozo"/>
+	<meta name="description" content="Somos una empresa familiar con mas de 20 años de trayectoria, dedicada a la dirección y construcción de emprendimientos inmobiliarios."/>
 	
     <!-- ============= Favicons ============= -->
 	
@@ -37,8 +36,8 @@
 
     <!-- ============= Stylesheets ============= -->
 	
-    <!-- Default stylesheets -->
-    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Default stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
 	
     <!-- Template specific stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
@@ -55,8 +54,9 @@
 	
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
-    <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
-	
+    <link href="assets/css/slider.css" rel="stylesheet">
+    <link href="assets/css/mobile-slider-style.css" rel="stylesheet">
+    <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
   </head>
   
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
@@ -109,31 +109,31 @@
             <div class="row multi-columns-row">
               <div class="col-sm-2 col-md-2 col-lg-2">
                 <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/freire FACU.jpg" alt="Kabab" style="border:5px solid black"/></div>
+                  <div class="content-box-image"><img src="assets/images/Obras/Freire2838.webp" alt="Kabab" style="border:5px solid black"/></div>
                   <h3 class="content-box-title font-serif">Freire 2838</h3>
                 </div>
               </div>
               <div class="col-sm-3 col-md-3 col-lg-3">
                 <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/aviles.jpg" alt="Kabab" style="border:5px solid black"/></div>
+                  <div class="content-box-image"><img src="assets/images/Obras/Aviles3168.webp" alt="Kabab" style="border:5px solid black"/></div>
                   <h3 class="content-box-title font-serif">Aviles 3168</h3>
                 </div>
               </div>
               <div class="col-sm-2 col-md-2 col-lg-2">
                 <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/freire.jpg" alt="Kabab" style="border:5px solid black"/></div>
+                  <div class="content-box-image"><img src="assets/images/Obras/Freire1052.webp" alt="Kabab" style="border:5px solid black"/></div>
                   <h3 class="content-box-title font-serif">Freire 1052</h3>
                 </div>
               </div>
               <div class="col-sm-3 col-md-3 col-lg-3">
                 <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/conde3.jpg" alt="Kabab" style="border:5px solid black"/></div>
+                  <div class="content-box-image"><img src="assets/images/Obras/Conde1365.webp" alt="Kabab" style="border:5px solid black"/></div>
                   <h3 class="content-box-title font-serif">Conde 1365</h3>
                 </div>
               </div>
               <div class="col-sm-2 col-md-2 col-lg-2">
                 <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/Olaguer5.jpg" alt="Limes" style="border:5px solid black"/></div>
+                  <div class="content-box-image"><img src="assets/images/Obras/Olaguer3181.webp" alt="Limes" style="border:5px solid black"/></div>
                   <h3 class="content-box-title font-serif">Olaguer 3181</h3>
                 </div>
               </div>
@@ -154,7 +154,7 @@
             </div>
             <div class="row">
               <div class="col-sm-12">
-                <ul class="filter font-alt" id="filters">
+                <ul class="filter font-alt-obras" id="filters">
                   <li><a class="current wow fadeInUp" href="#" data-filter="*">Todo</a></li>
                   <li><a class="wow fadeInUp" href="#" data-filter=".ambiente" data-wow-delay="0.2s">Ambientes</a></li>
                   <li><a class="wow fadeInUp" href="#" data-filter=".cocina" data-wow-delay="0.4s">Cocinas</a></li>
@@ -166,11 +166,11 @@
               </div>
             </div>
             <ul class="works-grid works-grid-masonry  works-grid-4" id="works-grid">
-				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/2B.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/2B.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/2B.webp" title="Ambientes">
+								<img src="assets/images/Obras/Detalle/2B.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -181,11 +181,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/4A.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/4A.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/4A.webp" title="Ambientes">
+								<img src="assets/images/Obras/Detalle/4A.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -196,11 +196,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/6A.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/6A.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/6A.webp" title="Exteriores">
+								<img src="assets/images/Obras/Detalle/6A.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -211,11 +211,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/8A.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/8A.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/8A.webp" title="Ambientes">
+								<img src="assets/images/Obras/Detalle/8A.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -226,11 +226,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item ambiente cocina webdesign col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item ambiente cocina webdesign col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/9A.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/9A.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/9A.webp" title="Ambientes">
+								<img src="assets/images/Obras/Detalle/9A.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -241,11 +241,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item banio col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item banio col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/10A.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/10A.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/10A.webp" title="Baños">
+								<img src="assets/images/Obras/Detalle/10A.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -256,11 +256,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item banio col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item banio col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/11A.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/11A.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/11A.webp" title="Baños">
+								<img src="assets/images/Obras/Detalle/11A.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -271,11 +271,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/12A.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/12A.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/12A.webp" title="Ambientes">
+								<img src="assets/images/Obras/Detalle/12A.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -286,11 +286,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item pasillos col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item pasillos col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/13B.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/13B.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/13B.webp" title="Pasillos">
+								<img src="assets/images/Obras/Detalle/13B.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -301,11 +301,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/14B.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/14B.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/14B.webp" title="Ambientes">
+								<img src="assets/images/Obras/Detalle/14B.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -316,11 +316,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/A.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/A.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/A.webp" title="Ambientes">
+								<img src="assets/images/Obras/Detalle/A.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -331,11 +331,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/B.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/B.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/B.webp" title="Exteriores">
+								<img src="assets/images/Obras/Detalle/B.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -346,11 +346,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item exteriores cocheras col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item exteriores cocheras col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/C.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/C.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/C.webp" title="Exteriores">
+								<img src="assets/images/Obras/Detalle/C.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -361,11 +361,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item exteriores cocheras col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item exteriores cocheras col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/D.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/D.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/D.webp" title="Exteriores">
+								<img src="assets/images/Obras/Detalle/D.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -376,11 +376,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/E2.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/E2.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/E2.webp" title="Ambientes">
+								<img src="assets/images/Obras/Detalle/E2.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -391,11 +391,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item cocheras col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item cocheras col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/F.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/F.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/F.webp" title="Cocheras">
+								<img src="assets/images/Obras/Detalle/F.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -406,11 +406,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/G.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/G.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/G.webp" title="Exteriores">
+								<img src="assets/images/Obras/Detalle/G.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -421,11 +421,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/H.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/H.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/H.webp" title="Exteriores">
+								<img src="assets/images/Obras/Detalle/H.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -436,11 +436,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/I2.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/I2.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/I2.webp" title="Exteriores">
+								<img src="assets/images/Obras/Detalle/I2.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -451,11 +451,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item banio col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item banio col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/J.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/J.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/J.webp" title="Baños">
+								<img src="assets/images/Obras/Detalle/J.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -466,11 +466,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item banio col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item banio col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/K.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/K.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/K.webp" title="Baños">
+								<img src="assets/images/Obras/Detalle/K.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -481,11 +481,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/L.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/L.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/L.webp" title="Ambientes">
+								<img src="assets/images/Obras/Detalle/L.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -496,11 +496,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item banio col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item banio col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/M.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/M.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/M.webp" title="Baños">
+								<img src="assets/images/Obras/Detalle/M.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -511,11 +511,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item cocina col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item cocina col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/N.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/N.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/N.webp" title="Cocinas">
+								<img src="assets/images/Obras/Detalle/N.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -526,11 +526,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item pasillos col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item pasillos col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/O.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/O.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/O.webp" title="Pasillos">
+								<img src="assets/images/Obras/Detalle/O.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -541,11 +541,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item pasillos col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item pasillos col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/P.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/P.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/P.webp" title="Pasillos">
+								<img src="assets/images/Obras/Detalle/P.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -556,11 +556,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item cocheras col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item cocheras col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/Q2.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/Q2.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/Q2.webp" title="Cocheras">
+								<img src="assets/images/Obras/Detalle/Q2.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -571,11 +571,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item cocheras col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item cocheras col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/R.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/R.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/R.webp" title="Cocheras">
+								<img src="assets/images/Obras/Detalle/R.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -586,11 +586,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/S.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/S.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/S.webp" title="Exteriores">
+								<img src="assets/images/Obras/Detalle/S.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -601,11 +601,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item cocina col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item cocina col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/T.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/T.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/T.webp" title="Cocinas">
+								<img src="assets/images/Obras/Detalle/T.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -616,11 +616,11 @@
 						</div>
 					</div>
 				</li>
-				<li class="work-item cocina col-sm-3 col-md-3 col-lg-3">
+				<li class="work-item cocina col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/U.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/U.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/U.webp" title="Cocinas">
+								<img src="assets/images/Obras/Detalle/U.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -630,12 +630,12 @@
 							</a>
 						</div>
 					</div>
-				</li>>
-				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3">
+				</li>
+				<li class="work-item ambiente col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/V.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/V.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/V.webp" title="Ambientes">
+								<img src="assets/images/Obras/Detalle/V.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -645,12 +645,27 @@
 							</a>
 						</div>
 					</div>
-				</li>>
-				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3">
+				</li>
+				<li class="work-item exteriores col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
 					<div class="gallery-item">
 						<div class="gallery-image">
-							<a class="gallery" href="assets/images/Obras/Detalle/W.jpg" title="Title 1">
-								<img src="assets/images/Obras/Detalle/W.jpg" alt="Gallery Image 1"/>
+							<a class="gallery" href="assets/images/Obras/Detalle/W.webp" title="Exteriores">
+								<img src="assets/images/Obras/Detalle/W.webp" alt="Gallery Image 1"/>
+									<div class="gallery-caption">
+										<div class="gallery-icon">
+											<span class="icon-magnifying-glass">
+											</span>
+										</div>
+									</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="work-item cocheras col-sm-3 col-md-3 col-lg-3" media="none" onload="if(media!='all')media='all'">
+					<div class="gallery-item">
+						<div class="gallery-image">
+							<a class="gallery" href="assets/images/Obras/Detalle/5A.webp" title="Cocheras">
+								<img src="assets/images/Obras/Detalle/5A.webp" alt="Gallery Image 1"/>
 									<div class="gallery-caption">
 										<div class="gallery-icon">
 											<span class="icon-magnifying-glass">
@@ -664,68 +679,6 @@
             </ul>
           </div>
         </section>
-        
-		<!-- section class="module bg-light">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Our clients</h2>
-                <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
-              </div>
-            </div>
-            <div class="row client">
-              <div class="owl-carousel text-center" data-items="5" data-pagination="true" data-navigation="false">
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-1.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-2.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-3.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-4.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-5.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-1.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-2.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-3.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="assets/images/client-logo-dark-4.png" alt="Client Logo"/></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-		
-        <hr class="divider-d" -->
 		
         <footer class="footer bg-dark">
           <div class="container">
@@ -747,18 +700,11 @@
     <!-- ============= JavaScripts ============= -->
 	
     <script src="assets/lib/jquery/dist/jquery.js"></script>
-    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/lib/wow/dist/wow.js"></script>
-    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
-    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
-    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
-    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
-    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script src="assets/lib/smoothscroll.js"></script>
+	<script src="assets/lib/wow/dist/wow.js"></script>
+	<script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+	<script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
     <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
-    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK2Axt8xiFYMBMDwwG1XzBQvEbYpzCvFU"></script>
-    <script src="assets/js/plugins.js"></script>
+	<script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>

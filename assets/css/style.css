@@ -887,15 +887,42 @@ blockquote {
   padding: 0;
 }
 
-.font-alt {
+.font-alt-title {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
+.font-alt {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;  
+  position: relative;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  color: #111;
+  margin: 0 0 4%;
+}
+
+.font-alt-obras {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;  
+  position: relative;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  color: #111;
+  margin: 0 0 4%;
+}
+
 .font-serif {
+  text-align: center;
   font-family: Volkhov, "Times New Roman", sans-serif;
   font-style: italic;
+  font-size: 20px;
+  color: #111;
 }
 
 .large-text {
@@ -913,7 +940,7 @@ blockquote {
   font-weight: 400;
   font-size: 30px;
   color: #111;
-  margin: 0 0 70px;
+  margin: 0 0 4%;
 }
 
 .module-subtitle {
@@ -990,7 +1017,7 @@ blockquote {
 	Slider & Carousel
 --------------------------------------------------------------*/
 /* -------------------------------------------------------------------
-General Styles - FlexSlider
+General Styles - 
 ------------------------------------------------------------------- */
 .flex-direction-nav a,
 .flex-control-nav > li > a {
@@ -1378,6 +1405,14 @@ General Styles - Owlcarousel
   background-size: cover;
 }
 
+.module-section {
+  position: relative;
+  background-position: center center;
+  height: 100% !important;
+  z-index: 0;
+  background-size: cover;
+}
+
 .titan-title-size-1 {
   letter-spacing: 4px;
   font-size: 15px;
@@ -1466,7 +1501,7 @@ General Styles - Owlcarousel
   background: rgba(2, 2, 2, 0.4);
 }
 
-.restaurant-page-header:before {
+.phrodrigo-page-header:before {
   background: rgba(0, 0, 0, 0.45);
 }
 
