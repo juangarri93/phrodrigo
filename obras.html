@@ -92,7 +92,7 @@
 	<!-- ============= Cabecera ============= -->
 	
       <div class="main">
-        <section class="module bg-dark-60 portfolio-page-header" data-background="assets/images/Costruccion/Cranes.jpg">
+        <section class="module bg-dark-60 proyectos-anteriores-page-header" data-background="assets/images/Costruccion/Cranes.jpg" style="padding: 100px 0;">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
@@ -104,47 +104,71 @@
         </section>
 		<hr class="divider-w">
 		
-        <section class="module" id="specialities"  style="padding-bottom:1%;padding-top:3%;">
+        
+		 <section class="module-proyectos-anteriores" id="specialities" style="padding:0">
           <div class="container">
-            <div class="row multi-columns-row">
-              <div class="col-sm-2 col-md-2 col-lg-2">
-                <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/Freire2838.webp" alt="Kabab" style="border:5px solid black"/></div>
-                  <h3 class="content-box-title font-serif">Freire 2838</h3>
-                </div>
-              </div>
-              <div class="col-sm-3 col-md-3 col-lg-3">
-                <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/Aviles3168.webp" alt="Kabab" style="border:5px solid black"/></div>
-                  <h3 class="content-box-title font-serif">Aviles 3168</h3>
-                </div>
-              </div>
-              <div class="col-sm-2 col-md-2 col-lg-2">
-                <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/Freire1052.webp" alt="Kabab" style="border:5px solid black"/></div>
-                  <h3 class="content-box-title font-serif">Freire 1052</h3>
-                </div>
-              </div>
-              <div class="col-sm-3 col-md-3 col-lg-3">
-                <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/Conde1365.webp" alt="Kabab" style="border:5px solid black"/></div>
-                  <h3 class="content-box-title font-serif">Conde 1365</h3>
-                </div>
-              </div>
-              <div class="col-sm-2 col-md-2 col-lg-2">
-                <div class="content-box">
-                  <div class="content-box-image"><img src="assets/images/Obras/Olaguer3181.webp" alt="Limes" style="border:5px solid black"/></div>
-                  <h3 class="content-box-title font-serif">Olaguer 3181</h3>
-                </div>
-              </div>
-            </div>
+          <div class="hidden-xs" id="slider" style="max-height: 300px, max-width: 210px;">
+            <div>                
+			  <input type="radio" name="slider" id="s1">
+			  <input type="radio" name="slider" id="s2">
+			  <input type="radio" name="slider" id="s3" checked>
+			  <input type="radio" name="slider" id="s4">
+			  <input type="radio" name="slider" id="s5">
+			  <label for="s1" id="slide1"></label>
+			  <label for="s2" id="slide2"></label>
+			  <label for="s3" id="slide3"></label>
+			  <label for="s4" id="slide4"></label>
+			  <label for="s5" id="slide5"></label>
+            </div>	
           </div>
-            <div class="row">
-              <div class="col-sm-2 col-sm-offset-5" >
-                <div class="large-text align-center"><a class="section-scroll" href="#detalles"><i class="fa fa-angle-down"></i></a></div>
-              </div>
-            </div>
+		
+		<div class="visible-xs"  id="slider-mobile" >
+		   <input type="radio" name="slider-mobile" id="slide1-mobile" checked>
+		   <input type="radio" name="slider-mobile" id="slide2-mobile">
+		   <input type="radio" name="slider-mobile" id="slide3-mobile"> 
+		   <input type="radio" name="slider-mobile" id="slide4-mobile">
+		   <input type="radio" name="slider-mobile" id="slide5-mobile">
+		   <div id="slides-mobile" style="width:60%;margin-left: auto;margin-right: auto">
+			  <div id="overflow-mobile">
+				 <div class="inner">
+					<div class="slide">
+					   <div class="slide-content">
+						  <img src="assets/images/Obras/Conde1365.webp"/>
+					   </div>
+					</div>
+					<div class="slide">
+					   <div class="slide-content">
+						  <img src="assets/images/Obras/Aviles3168.webp"/>
+					   </div>
+					</div>
+					<div class="slide">
+					   <div class="slide-content">
+						  <img src="assets/images/Obras/Freire1052.webp"/>
+					   </div>
+					</div>
+					<div class="slide">
+					   <div class="slide-content">
+						  <img src="assets/images/Obras/Olaguer3181.webp"/>
+					   </div>
+					</div>
+					<div class="slide">
+					   <div class="slide-content">
+						  <img src="assets/images/Obras/Freire2838.webp"/>
+					   </div>
+					</div>
+				 </div>
+			  </div>
+		   </div>
+		   <div id="controls-mobile">
+			  <label for="slide1-mobile"></label>
+			  <label for="slide2-mobile"></label>
+			  <label for="slide3-mobile"></label>
+			  <label for="slide4-mobile"></label>
+			  <label for="slide5-mobile"></label>
+		   </div>
+		</div>		
 		</section>
+		
         <section class="module"  id="detalles" style="padding-top:3%;">
           <div class="container">
             <div class="row">
@@ -684,7 +708,7 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-6">
-                <p class="copyright font-alt">&copy; 2017&nbsp;<a href="index.html">PH Rodrigo</a>, All Rights Reserved</p>
+                <p class="copyright font-alt-footer">&copy; 2017&nbsp;<a href="index.html">PH Rodrigo</a>, All Rights Reserved</p>
               </div>
               <div class="col-sm-6">
                 <div class="footer-social-links"><a href="https://www.facebook.com/inmueblesphrodrigo/"><i class="fa fa-facebook"></i></a>
@@ -698,13 +722,19 @@
     </main>
    
     <!-- ============= JavaScripts ============= -->
-	
     <script src="assets/lib/jquery/dist/jquery.js"></script>
-	<script src="assets/lib/wow/dist/wow.js"></script>
-	<script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
-	<script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/lib/smoothscroll.js"></script>
     <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
-	<script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
+	
   </body>
 </html>

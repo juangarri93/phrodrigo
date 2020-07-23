@@ -169,6 +169,14 @@ a,
   background-size: cover;
 }
 
+.module-proyectos-anteriores {
+  position: relative;
+  padding: 3% 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
 /* Module header */
 .module-small {
   padding: 70px 0;
@@ -905,6 +913,14 @@ blockquote {
   margin: 0 0 4%;
 }
 
+.font-alt-footer {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;  
+  position: relative;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
 .font-alt-obras {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;  
@@ -941,6 +957,16 @@ blockquote {
   font-size: 30px;
   color: #111;
   margin: 0 0 4%;
+}
+
+.module-title-proyectos-anteriores {
+  position: relative;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  color: #111;
+  margin: 0 0 0;
 }
 
 .module-subtitle {
@@ -1510,7 +1536,7 @@ General Styles - Owlcarousel
 }
 
 /* Portfolio Page Header */
-.portfolio-page-header {
+.proyectos-anteriores-page-header {
   background-position: 50% 50%;
 }
 
@@ -1620,6 +1646,12 @@ Google map
 .alt-features-title {
   font-size: 13px;
   margin: 0 0 10px;
+}
+
+.alt-features-contacto {
+  font-size: 13px;
+  margin: 0 0 10px;
+  text-align: left;
 }
 
 /* Content box */
