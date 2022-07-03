@@ -1628,6 +1628,13 @@ Google map
 
 .alt-features-item {
   position: relative;
+  text-align: center;  
+  padding-left: 55px;
+  margin: 65px 0 0 0;
+}
+
+.alt-features-item-centered {
+  position: relative;
   padding-left: 55px;
   margin: 65px 0 0 0;
 }
@@ -1651,7 +1658,7 @@ Google map
 .alt-features-contacto {
   font-size: 13px;
   margin: 0 0 10px;
-  text-align: left;
+  text-align: center;
 }
 
 /* Content box */
